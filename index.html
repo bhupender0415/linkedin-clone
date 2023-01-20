@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo">
+                <img src="logo.png" />
+            </a>
+            <div class="search-box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="24x24"
+                fill="currentColor" class="mercado-match" width="16" height="16">
+                    <path fill-rule="evenodd" d="M14.56 12.44L11.3 9.18a5.51 5.51 0 10-2.12 2.12l3.26 3.26a1.5 1.5 0 102.12-2.12zM3 6.5A3.5 3.5 0 116.5 10 3.5 3.5 0 013 6.5z" />
+                  </svg>
+                  
+                <input type="text" placeholder="Search"/>
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li>
+                    <a href="#" class="active-link">
+                        <!-- <i class="fa fa-home"> </i> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                            fill="currentColor" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span>
+                        Home</span>
+                    </a>
+                </li>
+
+                <li><a href="#">
+                        <!-- <i class="fa fa-users"> </i> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                            fill="currentColor" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span>
+                        My Network</span>
+                    </a></li>
+                <li><a href="#">
+                        <!-- <i class="fa fa-briefcase"> </i> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                            fill="currentColor" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span>
+                        Jobs</span>
+                    </a></li>
+                <li><a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                            fill="currentColor" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z" />
+                        </svg>
+                        <span>
+                        Messaging</span>
+                    </a></li>
+                <li><a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                            fill="currentColor" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z" />
+                        </svg>
+                        <span>
+                        Notifications</span>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+            <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg" class="nav-profile-img">
+        </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- main container start -->
+    <div class="container">
+        <!-- left sidebar  -->
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg" width="100%" class="profile-pic"/>
+                <div class="sidebar-profile-info">
+                    <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg"/>
+                    <h1>Random User</h1>
+                    <h3>Web Developer at MAANG</h3>
+                    <ul>
+                        <li>Your profile views <span>52</span></li>
+                        <li>Your post views <span>1000</span></li>
+                        <li>Your connections <span>200</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                        fill="currentColor" class="mercado-match" width="16" height="16">
+                        <path fill-rule="evenodd"
+                            d="M13 4a3 3 0 00-3-3H3v14l5-4.5 5 4.5z" />
+                    </svg> My Items</a>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="24x24"
+                        fill="currentColor" class="mercado-match" width="16" height="16">
+                        <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
+                        <path
+                            d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e" />
+                    </svg>Try premium</a>
+                </div>
+            </div>
+
+            <div class="sidebar-activity">
+                <h3>RECENT</h3>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                    fill="currentColor" class="mercado-match" width="16" height="16">
+                    <path fill-rule="evenodd"
+                        d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z" />
+                </svg> Web Development master class</a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                    fill="currentColor" class="mercado-match" width="16" height="16">
+                    <path fill-rule="evenodd"
+                        d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z" />
+                </svg> User Interface / User experience</a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                    fill="currentColor" class="mercado-match" width="16" height="16">
+                    <path fill-rule="evenodd"
+                        d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z" />
+                </svg>Online Learning Platform for Techies</a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                    fill="currentColor" class="mercado-match" width="16" height="16">
+                    <path fill-rule="evenodd"
+                        d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z" />
+                </svg>Free Workshop For all to attend</a>
+                <h3>GROUPS</h3>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                    fill="currentColor" class="mercado-match" width="16" height="16">
+                    <path fill-rule="evenodd"
+                        d="M8.5 7h-1A1.5 1.5 0 006 8.5V14h4V8.5A1.5 1.5 0 008.5 7zM12.75 8h-.5A1.25 1.25 0 0011 9.25V14h3V9.25A1.25 1.25 0 0012.75 8z" />
+                        <circle cx="8" cy="4" r="2"></circle>
+                        <circle cx="12.5" cy="5.5" r="1.5"></circle>
+                        <path fill-rule="evenodd"
+                        d="M3.75 8h-.5A1.25 1.25 0 002 9.25V14h3V9.25A1.25 1.25 0 003.75 8z" />
+                        <circle cx="3.5" cy="5.5" r="1.5"></circle>
+
+                </svg>Web Designers</a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                    fill="currentColor" class="mercado-match" width="16" height="16">
+                    <path fill-rule="evenodd"
+                        d="M8.5 7h-1A1.5 1.5 0 006 8.5V14h4V8.5A1.5 1.5 0 008.5 7zM12.75 8h-.5A1.25 1.25 0 0011 9.25V14h3V9.25A1.25 1.25 0 0012.75 8z" />
+                        <circle cx="8" cy="4" r="2"></circle>
+                        <circle cx="12.5" cy="5.5" r="1.5"></circle>
+                        <path fill-rule="evenodd"
+                        d="M3.75 8h-.5A1.25 1.25 0 002 9.25V14h3V9.25A1.25 1.25 0 003.75 8z" />
+                        <circle cx="3.5" cy="5.5" r="1.5"></circle>
+
+                </svg>HTML & CSS</a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                    fill="currentColor" class="mercado-match" width="16" height="16">
+                    <path fill-rule="evenodd"
+                        d="M8.5 7h-1A1.5 1.5 0 006 8.5V14h4V8.5A1.5 1.5 0 008.5 7zM12.75 8h-.5A1.25 1.25 0 0011 9.25V14h3V9.25A1.25 1.25 0 0012.75 8z" />
+                        <circle cx="8" cy="4" r="2"></circle>
+                        <circle cx="12.5" cy="5.5" r="1.5"></circle>
+                        <path fill-rule="evenodd"
+                        d="M3.75 8h-.5A1.25 1.25 0 002 9.25V14h3V9.25A1.25 1.25 0 003.75 8z" />
+                        <circle cx="3.5" cy="5.5" r="1.5"></circle>
+
+                </svg>Core Java Developers</a>
+                <h3>HASHTAG</h3>
+                <a href="#"># webdevelopers</a>
+                <a href="#"># programmers</a>
+                <a href="#"># datascientist</a>
+                <div class="discover-more-link">
+                    <a href="#">Discover More</a>
+                </div>
+            </div>
+        </div>
+        <!-- main content -->
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg"/>
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+                <div class="craete-post-links">
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                        fill="#378fe9" class="mercado-match" width="24" height="24">
+                        <path fill-rule="evenodd"
+                            d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z" />
+                    </svg> Photo</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="16x16"
+                        fill="#5f9b41" class="mercado-match" width="24" height="24">
+                        <path fill-rule="evenodd"
+                            d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z" />
+                    </svg> Video</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="16x16"
+                        fill="#c37d16" class="mercado-match" width="24" height="24">
+                        <path fill-rule="evenodd"
+                            d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z" />
+                    </svg> Event</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="16x16"
+                        fill="#e16745" class="mercado-match" width="24" height="24">
+                        <path fill-rule="evenodd"
+                            d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z" />
+                    </svg> Post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>top <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                    fill="currentColor" class="mercado-match" width="16" height="16">
+                    <path fill-rule="evenodd"
+                        d="M8 11L3 6h10z" />
+                </svg></span></p>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg"/>
+                    <div>
+                        <h1>Random User</h1>
+                        <small>Founder and CEO at Some company</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>Success is a myth. It can be achieved through various options. What is yours? Which option would you like to go with. Do you think hardwork, detemrmination, consistency, persevenrance ... what works</p>
+                <img src="https://images.unsplash.com/photo-1627843240167-b1f9d28f732e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZHluYW1pY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" width="100%">
+                <div class="post-stats">
+                    <div>
+                       <img src="https://static.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt">
+                        <img src="https://static.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt="">
+                        <img src="https://static.licdn.com/sc/h/41j9d0423ck1snej32brbuuwg" alt="">
+                        <span class="liked-user">Upgrad and 50 others</span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <!-- <div>
+                        <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg" class="post-activity-user-icon"/>
+                        <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg" />
+                    </div> -->
+                    <div>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                            fill="#378fe9" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z" />
+                        </svg> Like</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="16x16"
+                            fill="#5f9b41" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" />
+                        </svg> Comment</li>
+                        <li><svg height="32" id="repost" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path d=" M7 7 L14 14 L9 14 L9 20 L16 20 L16 24 L5 24 L5 14 L0 14 z M16 8 L27 8 L27 18 L32 18 L25 25 L18 18 L23 18 L23 12 L16 12z "/></svg>
+                             Repost</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="16x16"
+                            fill="#e16745" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z" />
+                        </svg> Send</li>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg"/>
+                    <div>
+                        <h1>Random User</h1>
+                        <small>Founder and CEO at Some company</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>Success is a myth. It can be achieved through various options. What is yours? Which option would you like to go with. Do you think hardwork, detemrmination, consistency, persevenrance ... what works</p>
+                <img src="https://images.unsplash.com/photo-1593572547344-d8c3d0ff7d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZHluYW1pY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" width="100%">
+                <div class="post-stats">
+                    <div>
+                       <img src="https://static.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt">
+                   <img src="https://static.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt="">
+                   <img src="https://static.licdn.com/sc/h/41j9d0423ck1snej32brbuuwg" alt="">
+                    <span class="liked-user">Upgrad and 50 others</span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <!-- <div>
+                        <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg" class="post-activity-user-icon"/>
+                        <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg" />
+                    </div> -->
+                    <div>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                            fill="#378fe9" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z" />
+                        </svg> Like</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="16x16"
+                            fill="#5f9b41" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" />
+                        </svg> Comment</li>
+                        <li><svg height="32" id="repost" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path d=" M7 7 L14 14 L9 14 L9 20 L16 20 L16 24 L5 24 L5 14 L0 14 z M16 8 L27 8 L27 18 L32 18 L25 25 L18 18 L23 18 L23 12 L16 12z "/></svg> Repost</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="16x16"
+                            fill="#e16745" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z" />
+                        </svg> Send</li>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg"/>
+                    <div>
+                        <h1>Random User</h1>
+                        <small>Founder and CEO at Some company</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>Success is a myth. It can be achieved through various options. What is yours? Which option would you like to go with. Do you think hardwork, detemrmination, consistency, persevenrance ... what works</p>
+                <img src="https://images.unsplash.com/photo-1603347729548-6844517490c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGR5bmFtaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" width="100%">
+                <div class="post-stats">
+                    <div>
+                       <img src="https://static.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt">
+                   <img src="https://static.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt="">
+                   <img src="https://static.licdn.com/sc/h/41j9d0423ck1snej32brbuuwg" alt="">
+                    <span class="liked-user">Upgrad and 50 others</span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <!-- <div>
+                        <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg" class="post-activity-user-icon"/>
+                        <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg" />
+                    </div> -->
+                    <div>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                            fill="#378fe9" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z" />
+                        </svg> Like</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="16x16"
+                            fill="#5f9b41" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" />
+                        </svg> Comment</li>
+                        <li><svg height="32" id="repost" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path d=" M7 7 L14 14 L9 14 L9 20 L16 20 L16 24 L5 24 L5 14 L0 14 z M16 8 L27 8 L27 18 L32 18 L25 25 L18 18 L23 18 L23 12 L16 12z "/></svg> Repost</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="16x16"
+                            fill="#e16745" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z" />
+                        </svg> Send</li>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg"/>
+                    <div>
+                        <h1>Random User</h1>
+                        <small>Founder and CEO at Some company</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>Success is a myth. It can be achieved through various options. What is yours? Which option would you like to go with. Do you think hardwork, detemrmination, consistency, persevenrance ... what works</p>
+                <img src="https://images.unsplash.com/photo-1604012164853-9bb541fe0296?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZHluYW1pY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" width="100%">
+                <div class="post-stats">
+                    <div>
+                       <img src="https://static.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt">
+                   <img src="https://static.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt="">
+                   <img src="https://static.licdn.com/sc/h/41j9d0423ck1snej32brbuuwg" alt="">
+                    <span class="liked-user">Upgrad and 50 others</span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <!-- <div>
+                        <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg" class="post-activity-user-icon"/>
+                        <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg" />
+                    </div> -->
+                    <div>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                            fill="#378fe9" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z" />
+                        </svg> Like</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="16x16"
+                            fill="#5f9b41" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" />
+                        </svg> Comment</li>
+                        <li><svg height="32" id="repost" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path d=" M7 7 L14 14 L9 14 L9 20 L16 20 L16 24 L5 24 L5 14 L0 14 z M16 8 L27 8 L27 18 L32 18 L25 25 L18 18 L23 18 L23 12 L16 12z "/></svg> Repost</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="16x16"
+                            fill="#e16745" class="mercado-match" width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z" />
+                        </svg> Send</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right sidebar -->
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                    fill="currentColor" class="mercado-match" width="16" height="16">
+                    <path fill-rule="evenodd"
+                        d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z" />
+                </svg>
+                <h3>Trending News</h3>
+                <a href="#"> High demand for skilled manpower</a>
+                <span>1d ago &middot; 10,000 readers</span>
+                <a href="#"> High demand for skilled manpower</a>
+                <span>1d ago &middot; 10,000 readers</span>
+                <a href="#"> High demand for skilled manpower</a>
+                <span>1d ago &middot; 10,000 readers</span>
+                <a href="#"> High demand for skilled manpower</a>
+                <span>1d ago &middot; 10,000 readers</span>
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the skills to learn to be an effective programmer</p>
+                <div>
+                    <img src="https://randomuser.me/api/portraits/thumb/men/75.jpg"/>
+                    <img src="https://images.unsplash.com/photo-1597332503885-fc8d195a99b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGR5bmFtaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"/>
+                </div>
+                <b>Brand and it is in demand</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Help Center</a>
+                <a href="#">Get App Version</a>
+                <a href="#">Privacy</a>
+                <a href="#">Advertising</a>
+                <a href="#">More</a>
+
+                <div class="copyright-msg">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/02/12/02/linkedin-3368467__340.jpg"/>
+                    <p>LinkedIn &#169; 2022. All right reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main container end -->
+</body>
+
+</html>
