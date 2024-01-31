@@ -1,4 +1,4 @@
-# twitter-clone
+# Linkdin-clone
 
 This project is purely based on HTML and CSS
 
